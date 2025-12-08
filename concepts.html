@@ -1,124 +1,96 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6d6d6d; -webkit-text-stroke: #6d6d6d; background-color: #ffffff}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6b0001; -webkit-text-stroke: #6b0001; background-color: #ffffff}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #fb0007; -webkit-text-stroke: #fb0007; background-color: #ffffff}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #0000ff; -webkit-text-stroke: #0000ff; background-color: #ffffff}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; -webkit-text-stroke: #000000; background-color: #ffffff}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; -webkit-text-stroke: #000000; background-color: #ffffff; min-height: 16.0px}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #4d5055; -webkit-text-stroke: #4d5055; background-color: #ffffff}
-    span.s1 {font-kerning: none}
-    span.s2 {font-kerning: none; color: #fb0007; -webkit-text-stroke: 0px #fb0007}
-    span.s3 {font-kerning: none; color: #2a2a2a; -webkit-text-stroke: 0px #2a2a2a}
-    span.s4 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
-    span.s5 {font-kerning: none; color: #0000ff; -webkit-text-stroke: 0px #0000ff}
-    span.s6 {font-kerning: none; color: #6b0001; -webkit-text-stroke: 0px #6b0001}
-    span.s7 {font-kerning: none; color: #18702b; -webkit-text-stroke: 0px #18702b}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Alchemy - Key Concepts</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .menu-toggle::before { content: '☰'; }
+    </style>
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE</span><span class="s2"> html</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;</span><span class="s1">html</span><span class="s4"> </span><span class="s2">lang</span><span class="s3">=</span><span class="s5">"en"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;</span><span class="s1">head</span><span class="s3">&gt;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">meta</span><span class="s4"> </span><span class="s1">charset</span><span class="s3">=</span><span class="s5">"UTF-8"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">meta</span><span class="s4"> </span><span class="s2">name</span><span class="s3">=</span><span class="s1">"viewport"</span><span class="s4"> </span><span class="s2">content</span><span class="s3">=</span><span class="s1">"width=device-width, initial-scale=1.0"</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">title</span><span class="s3">&gt;</span><span class="s1">Coffee Alchemy - Key Concepts</span><span class="s3">&lt;/</span><span class="s6">title</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">link</span><span class="s4"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s4"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"style.css"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">style</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">.menu-toggle::before</span><span class="s4"> { </span><span class="s2">content:</span><span class="s4"> </span><span class="s7">'☰'</span><span class="s4">; }</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">style</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">head</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;</span><span class="s1">body</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">header</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">h1</span><span class="s3">&gt;&lt;</span><span class="s6">a</span><span class="s1"> </span><span class="s2">href</span><span class="s3">=</span><span class="s5">"index.html"</span><span class="s3">&gt;</span><span class="s1">Coffee Alchemy</span><span class="s3">&lt;/</span><span class="s6">a</span><span class="s3">&gt;&lt;/</span><span class="s6">h1</span><span class="s3">&gt;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s4"> </span><span class="s1">class</span><span class="s3">=</span><span class="s5">"menu-toggle"</span><span class="s4"> </span><span class="s1">aria-controls</span><span class="s3">=</span><span class="s5">"main-nav"</span><span class="s4"> </span><span class="s1">aria-expanded</span><span class="s3">=</span><span class="s5">"false"</span><span class="s3">&gt;&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">nav</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">ul</span><span class="s1"> </span><span class="s2">id</span><span class="s3">=</span><span class="s5">"main-nav"</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">li</span><span class="s3">&gt;&lt;</span><span class="s6">a</span><span class="s1"> </span><span class="s2">href</span><span class="s3">=</span><span class="s5">"index.html"</span><span class="s3">&gt;</span><span class="s1">Home</span><span class="s3">&lt;/</span><span class="s6">a</span><span class="s3">&gt;&lt;/</span><span class="s6">li</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">li</span><span class="s3">&gt;&lt;</span><span class="s6">a</span><span class="s1"> </span><span class="s2">href</span><span class="s3">=</span><span class="s5">"concepts.html"</span><span class="s3">&gt;</span><span class="s1">Key Concepts</span><span class="s3">&lt;/</span><span class="s6">a</span><span class="s3">&gt;&lt;/</span><span class="s6">li</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">li</span><span class="s3">&gt;&lt;</span><span class="s6">a</span><span class="s1"> </span><span class="s2">href</span><span class="s3">=</span><span class="s5">"content1.html"</span><span class="s3">&gt;</span><span class="s1">The Grind</span><span class="s3">&lt;/</span><span class="s6">a</span><span class="s3">&gt;&lt;/</span><span class="s6">li</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">li</span><span class="s3">&gt;&lt;</span><span class="s6">a</span><span class="s1"> </span><span class="s2">href</span><span class="s3">=</span><span class="s5">"content2.html"</span><span class="s3">&gt;</span><span class="s1">Brewing</span><span class="s3">&lt;/</span><span class="s6">a</span><span class="s3">&gt;&lt;/</span><span class="s6">li</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">li</span><span class="s3">&gt;&lt;</span><span class="s6">a</span><span class="s1"> </span><span class="s2">href</span><span class="s3">=</span><span class="s5">"quiz.html"</span><span class="s3">&gt;</span><span class="s1">Quiz</span><span class="s3">&lt;/</span><span class="s6">a</span><span class="s3">&gt;&lt;/</span><span class="s6">li</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">li</span><span class="s3">&gt;&lt;</span><span class="s6">a</span><span class="s1"> </span><span class="s2">href</span><span class="s3">=</span><span class="s5">"resources.html"</span><span class="s3">&gt;</span><span class="s1">References</span><span class="s3">&lt;/</span><span class="s6">a</span><span class="s3">&gt;&lt;/</span><span class="s6">li</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">li</span><span class="s3">&gt;&lt;</span><span class="s6">a</span><span class="s1"> </span><span class="s2">href</span><span class="s3">=</span><span class="s5">"about.html"</span><span class="s3">&gt;</span><span class="s1">About</span><span class="s3">&lt;/</span><span class="s6">a</span><span class="s3">&gt;&lt;/</span><span class="s6">li</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s6">ul</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">nav</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">header</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">main</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"container"</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">h2</span><span class="s3">&gt;</span><span class="s1">Essential Concepts in Coffee Science</span><span class="s3">&lt;/</span><span class="s6">h2</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">&lt;!-- Use of bullet points to organize knowledge points --&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">section</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">h3</span><span class="s3">&gt;</span><span class="s1">1. Bean Varieties: Arabica vs. Robusta</span><span class="s3">&lt;/</span><span class="s6">h3</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s3">&gt;</span><span class="s1">These are the two most commercially significant coffee species. Their differences drive much of the global flavor profile.</span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">ul</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">li</span><span class="s3">&gt;&lt;</span><span class="s6">strong</span><span class="s3">&gt;</span><span class="s1">Arabica:</span><span class="s3">&lt;/</span><span class="s6">strong</span><span class="s3">&gt;</span><span class="s1"> Accounts for about 60% of world production. Known for complex flavors (fruity, acidic, aromatic), lower caffeine content, and requires high-altitude, wet, and cool climates.</span><span class="s3">&lt;/</span><span class="s6">li</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">li</span><span class="s3">&gt;&lt;</span><span class="s6">strong</span><span class="s3">&gt;</span><span class="s1">Robusta:</span><span class="s3">&lt;/</span><span class="s6">strong</span><span class="s3">&gt;</span><span class="s1"> Higher caffeine (up to twice that of Arabica) and body. Known for a stronger, more rubbery or burnt-tire flavor. Used heavily in espresso blends for crema and in instant coffee. It's hardier and easier to grow.</span><span class="s3">&lt;/</span><span class="s6">li</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s6">ul</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">section</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">section</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">h3</span><span class="s3">&gt;</span><span class="s1">2. The Golden Ratio</span><span class="s3">&lt;/</span><span class="s6">h3</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s3">&gt;</span><span class="s1">A standardized starting point for brewing, defining the relationship between coffee mass and water volume.</span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s3">&gt;</span><span class="s1">The Specialty Coffee Association (SCA) recommends the Golden Ratio of </span><span class="s3">&lt;</span><span class="s6">strong</span><span class="s3">&gt;</span><span class="s1">55 grams of coffee per 1 liter of water</span><span class="s3">&lt;/</span><span class="s6">strong</span><span class="s3">&gt;</span><span class="s1">, or approximately a 1:18 coffee-to-water ratio. Adjustments are made based on roast level, brew method, and personal preference.</span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">section</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">section</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">h3</span><span class="s3">&gt;</span><span class="s1">3. The Role of Grind Size</span><span class="s3">&lt;/</span><span class="s6">h3</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s3">&gt;</span><span class="s1">Grind size dictates the surface area exposed to water, directly impacting extraction time and flavor profile.</span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"table-wrapper"</span><span class="s3">&gt;</span></p>
-<p class="p7"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s1">&lt;!-- Responsive Table: Wrapper ensures horizontal scroll on mobile --&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">table</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">thead</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s6">tr</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">th</span><span class="s3">&gt;</span><span class="s1">Grind Size</span><span class="s3">&lt;/</span><span class="s6">th</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">th</span><span class="s3">&gt;</span><span class="s1">Description</span><span class="s3">&lt;/</span><span class="s6">th</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">th</span><span class="s3">&gt;</span><span class="s1">Recommended Method</span><span class="s3">&lt;/</span><span class="s6">th</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s6">tr</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s6">thead</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">tbody</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s6">tr</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">Coarse</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">Sea salt texture</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">French Press, Cold Brew</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s6">tr</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s6">tr</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">Medium</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">Sand/regular ground coffee</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">Drip Machine, Chemex, Siphon</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s6">tr</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s6">tr</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">Fine</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">Table salt texture</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">Pour Over (e.g., V60), Espresso</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s6">tr</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s6">tr</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">Extra Fine</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">Flour/powdered sugar</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span></span><span class="s3">&lt;</span><span class="s6">td</span><span class="s3">&gt;</span><span class="s1">Turkish Coffee</span><span class="s3">&lt;/</span><span class="s6">td</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s6">tr</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s6">tbody</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s6">table</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s3">&gt;&lt;</span><span class="s6">strong</span><span class="s3">&gt;</span><span class="s1">Sound Logic:</span><span class="s3">&lt;/</span><span class="s6">strong</span><span class="s3">&gt;</span><span class="s1"> A finer grind extracts faster. If the water passes through too quickly (coarse grind), the coffee is under-extracted (sour). If it passes through too slowly (too fine), the coffee is over-extracted (bitter).</span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">section</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s6">main</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">footer</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s3">&gt;</span><span class="s1">&amp;copy; 2024 Coffee Alchemy Project. All rights reserved.</span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">footer</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s1"></span><br></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">script</span><span class="s4"> </span><span class="s2">src</span><span class="s3">=</span><span class="s5">"script.js"</span><span class="s3">&gt;&lt;/</span><span class="s1">script</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">body</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">html</span><span class="s3">&gt;</span></p>
+    <header>
+        <h1><a href="index.html">Coffee Alchemy</a></h1>
+        <button class="menu-toggle" aria-controls="main-nav" aria-expanded="false"></button>
+        <nav>
+            <ul id="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="concepts.html">Key Concepts</a></li>
+                <li><a href="content1.html">The Grind</a></li>
+                <li><a href="content2.html">Brewing</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="resources.html">References</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Essential Concepts in Coffee Science</h2>
+
+        <!-- Use of bullet points to organize knowledge points -->
+        <section>
+            <h3>1. Bean Varieties: Arabica vs. Robusta</h3>
+            <p>These are the two most commercially significant coffee species. Their differences drive much of the global flavor profile.</p>
+            <ul>
+                <li><strong>Arabica:</strong> Accounts for about 60% of world production. Known for complex flavors (fruity, acidic, aromatic), lower caffeine content, and requires high-altitude, wet, and cool climates.</li>
+                <li><strong>Robusta:</strong> Higher caffeine (up to twice that of Arabica) and body. Known for a stronger, more rubbery or burnt-tire flavor. Used heavily in espresso blends for crema and in instant coffee. It's hardier and easier to grow.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>2. The Golden Ratio</h3>
+            <p>A standardized starting point for brewing, defining the relationship between coffee mass and water volume.</p>
+            <p>The Specialty Coffee Association (SCA) recommends the Golden Ratio of <strong>55 grams of coffee per 1 liter of water</strong>, or approximately a 1:18 coffee-to-water ratio. Adjustments are made based on roast level, brew method, and personal preference.</p>
+        </section>
+
+        <section>
+            <h3>3. The Role of Grind Size</h3>
+            <p>Grind size dictates the surface area exposed to water, directly impacting extraction time and flavor profile.</p>
+            <div class="table-wrapper">
+                <!-- Responsive Table: Wrapper ensures horizontal scroll on mobile -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Grind Size</th>
+                            <th>Description</th>
+                            <th>Recommended Method</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Coarse</td>
+                            <td>Sea salt texture</td>
+                            <td>French Press, Cold Brew</td>
+                        </tr>
+                        <tr>
+                            <td>Medium</td>
+                            <td>Sand/regular ground coffee</td>
+                            <td>Drip Machine, Chemex, Siphon</td>
+                        </tr>
+                        <tr>
+                            <td>Fine</td>
+                            <td>Table salt texture</td>
+                            <td>Pour Over (e.g., V60), Espresso</td>
+                        </tr>
+                        <tr>
+                            <td>Extra Fine</td>
+                            <td>Flour/powdered sugar</td>
+                            <td>Turkish Coffee</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p><strong>Sound Logic:</strong> A finer grind extracts faster. If the water passes through too quickly (coarse grind), the coffee is under-extracted (sour). If it passes through too slowly (too fine), the coffee is over-extracted (bitter).</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Coffee Alchemy Project. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
